@@ -1,0 +1,53 @@
+// <div>
+            //     <div className={classes.main}>
+            //         <Card className={classes.card}>
+            //             <div className={classes.header}>
+            //                 <Typography variant="h6" component="h6">
+            //                     {translate('res.basicInformation')}
+            //                 </Typography>
+            //                 <Divider/>
+            //             </div>
+            //             <SimpleForm row={true}>
+            //                 <Grid container spacing={24}>
+            //                     <Grid item xs={4}>
+            //                         <TextInput style={{flex:1}} source={profile.lastName} label={translate('profile.lastName')} />
+            //                     </Grid>
+            //                     <Grid item xs={4}>
+            //                         <TextInput style={{flex:1}} source={profile.middleName} label={translate('profile.middleName')} />
+            //                     </Grid>
+            //                     <Grid item xs={4}>
+            //                         <TextInput style={{flex:1}} source={profile.firstName} label={translate('profile.firstName')} />
+            //                     </Grid>
+            //                 </Grid>
+            //                 <RadioButtonGroupInput options={{row: true}} source={translate('profile.gender')} choices={[
+            //                     { id: '0', name: 'gender.male' },
+            //                     { id: '1', name: 'gender.female' },
+            //                     { id: '2', name: 'gender.other' },
+            //                 ]} />
+            //                 <DateInput source="profile.birthDate" label={translate('profile.birthDate')} />
+            //             </SimpleForm>
+            //         </Card>
+            //     </div>
+            //     <div className={classes.main}>
+            //         <Card className={classes.card}>
+            //             <div className={classes.header}>
+            //                 <Typography variant="h6" component="h6">
+            //                     {translate('res.accountInformation')}
+            //                 </Typography>
+            //                 <Divider/>
+            //             </div>
+            //             <SimpleForm>
+            //                 <DisabledInput fullWidth source={profile.username} label={translate('res.users.fields.username')} />
+            //                 <div className={classes.changePasswordTittle}>
+            //                     <Typography variant="h6" component="h6">
+            //                         {translate('res.users.changePassword')}
+            //                     </Typography>
+            //                 </div>
+            //                 <TextInput fullWidth type="password" source="password" label={translate('res.users.fields.currentPassword')} />
+            //                 <TextInput fullWidth type="password" source="newPassword" label={translate('res.users.fields.newPassword')} />
+            //                 <TextInput fullWidth type="password" source="confirmPassword" label={translate('res.users.fields.confirmPassword')} />
+            //                 <Button onClick={this.handleClick} fullWidth type="CHANGE_PASS" source="confirmPassword" label="Luu" />
+            //             </SimpleForm>
+            //         </Card>
+            //     </div>
+            // </div>
